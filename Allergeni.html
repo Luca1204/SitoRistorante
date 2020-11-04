@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <title>Asporto</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+.active {
+  background-color: #4CAF50;
+}
+body{
+	background-image: url('sfondo.jpg');
+	background-size : cover
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
+</style>
+<body>
+<img src="logosushi.jpg" alt="Ristorante" style="height:50px; width:50px; float:right;">
+<h1 style="font-family:courier; text-align:center; color:gray;">Sushi Lombardi</h1>
+<br>
+<h2 style="font-family:courier; text-align:center; color:gray;">Asporto</h2>
+
+
+	<div class="navbar-nav nav-fill w-100" style="background-color:transparent ;">
+	<a href="sito.html" class="w3-button w3-mobile w3-text-yellow">Home</a>
+	<a href="MenuPranzo.html" class="w3-button w3-mobile w3-text-yellow">Menu Pranzo</a>
+	<a href="MenuCena.html" class="w3-button w3-mobile w3-text-yellow">Menu Cena</a>
+	<a href="Allergeni.html" class="w3-button w3-mobile w3-text-yellow">Asporto</a>
+	</div>
+<br>
+
+<form action="/action_page.php" style="background-color:black";>
+  <label for="fname">Nome:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Cognome:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <label for="faddress">Indirizzo:</label><br>
+  <input type="text" id="faddress" name="faddress" value=""><br>
+    <label for="fplate">Codice piatti e quantità</label><br>
+  <input type="text" id="fplate" name="fplate" value=""><br><br>
+  
+  
+  <input type="radio" id="pranzo" name="menu" value="pranzo">
+  <label for="pranzo">Menu Pranzo</label><br>
+  <input type="radio" id="cena" name="menu" value="cena">
+  <label for="cena">Menu Cena</label><br>
+  <br>
+  <input type="submit" value="Invia">
+</form> 
+  
+  
+  
+  
+  
+
+</form> 
+
+
+</html>
